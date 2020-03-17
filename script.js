@@ -32,9 +32,9 @@ function processResponse(response) {
     response.members.forEach(function (hero) {
         heroesTbody.innerHTML += `
         < tr >
-        < td >${hero.name} < /td>;
+        < td >${hero.name} < /td>;;
     <td>${hero.age}</td>
-    < td >${hero.secretIdentity} < /td>;
+    < td >${hero.secretIdentity} < /td>;;
     ${arrayToTD(hero.powers)}
 </tr>
 `;
